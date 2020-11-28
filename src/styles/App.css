@@ -1,0 +1,472 @@
+@import "Spinner.css";
+
+.stickyHeader {
+  width: 100%;
+  z-index: 100;
+  position: fixed !important;
+  top : 0;
+  cursor: pointer;
+}
+
+.stickyFooter {
+  width: 100%; 
+  z-index: 100;
+  position: fixed !important;
+  bottom : 0; 
+}
+
+.header {
+  position: relative;
+  background-color: lightseagreen;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  background-color: lightseagreen;
+  height: 35px;
+  color: white;
+}
+
+.headerLogo {
+  height: 60px;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headerText {
+  font-family: cursive;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainContainer {
+  margin: 10px !important;
+  margin-top: 50px !important;
+  height: 1500px;
+}
+
+.leftCol {
+  margin-top: 100px;
+}
+
+.rightCol {
+  margin-top: 100px;
+}
+
+.favPost {
+  position: relative;
+  padding-top: 400px !important;
+  height: 2000px;
+  background: lightpink;
+}
+
+.navMenu {
+  position: relative;
+  padding-top: 20px !important;
+  height: 2000px;
+}
+
+.navItem {
+  margin-bottom: 20px;
+  border: 1px solid red;
+  width: 100%;
+}
+
+.ccc {
+  margin-top: 100px;
+}
+
+.stats-card {
+  padding:5px 5px;
+  border: 0px solid red;
+  height: 300px !important;
+}
+
+.stats-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+.post {
+  padding:20px 5px;
+}
+
+.postDiv {
+  margin-top: 0px;
+  height: 250px;
+  z-index: 1;
+  border: 1px solid lightgray;
+  background-color: lightcyan;
+}
+
+.postDivDetail {
+  margin-top:100px;
+  height: 1500px;
+}
+
+.postDiv:hover {
+  transform: scale(1.10); 
+  z-index: 100;
+  cursor: pointer;
+}  
+
+.deleteBtn {
+  height: 40px;
+  width: 100%; 
+  margin-top: 30px;
+}
+
+.postDiv .title, .postDivDetail .title {
+  text-align: center;
+  height: 20%;
+  border-bottom: 0x solid orange;
+  font-size: 12px;
+  font-family: cursive;
+  padding: 10px;
+}
+
+.postDivDetail .title {
+  height: 2%;
+}
+
+
+.postDiv .postDivDetail .description {
+  height: 60%;
+  font-size: 12px;
+  padding: 10px;
+  border-bottom: 1px solid orange;
+}
+
+.description {
+  height: 60%;
+  font-size: 12px;
+  padding: 10px;
+}
+
+
+.mainDescription {
+  height: 1000px;
+  font-size: 12px;
+  padding: 50px;
+  background: bisque;
+}
+
+.description div {
+  display: inline-block;
+}
+
+.postDiv .source {
+  text-align: center;
+  height: 20%;
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 750;
+  font-style:italic;
+  background-color: orange;
+}  
+
+.addNew {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.deleteBtnContainer {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.link {
+  margin-top: 10px;
+  height: 30px;
+  text-align: center;
+}
+
+.postInfo {
+  width: 100%;
+  margin-top: 30px;
+  height: 400px;
+}
+
+.postInfo .title {
+  position: relative;
+  left: 60%;
+  padding: 10px;
+  height: 40px;
+  background: orange;
+}
+
+.postInfo .content {
+  padding: 40px;
+  background:#fff;
+  max-height: 300px;
+  overflow-y: scroll;
+  border: 10px solid gold;
+  font-family:cursive; 
+  font-size: 12px;
+}
+
+.commentsDiv {
+  max-height: 700px;
+  overflow-y: scroll;
+}
+
+.comment {
+  margin-top: 70px;
+  height: 50px;
+  text-align: center;
+  border: 0px solid lightgray;
+}
+
+.commentsHeading {
+  color:blueviolet;
+  position: relative;
+  left: 50%;
+  font-family: cursive;
+}
+
+.postContainer .source { 
+  right: 30%;
+  padding: 10px;
+  height: 40px;
+  background: orange;
+
+}
+
+.userContainer {
+  position: relative !important;
+  left: 10%;
+  height: 500px;
+  width: 800px;
+}
+
+.userInfo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 700px;
+  border: 1px solid lightgray; 
+}
+
+.pic {
+  position: relative;
+  background: lightcyan;
+}
+
+.info {
+  position: relative;
+  text-align: center;
+  background: bisque;
+}
+
+.info div {
+  margin: 10px 5px;
+}
+
+.ghgh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userImage {
+  display: block;
+  margin: auto;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.userImageMain {
+  width: 100%;
+  height: 750px;
+}
+
+.postDetailText {
+  font-size: 15px !important;  
+  font-weight: 400;
+  text-align: justify;
+  max-height: 750px;
+  overflow-y: scroll;
+  border: 2px solid lightgray;
+  padding: 15px;
+}
+
+.mainCont {
+  position: relative;
+  margin: 50px 0px;
+}
+
+.suggesterPost {
+  position: absolute;
+  left: 40%;
+  top: 0%;
+  transform: translate(0%, -50%);
+}
+
+.infoContainer {
+  width: 100%;
+  height:50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rowInfo span {
+  font-family: cursive;
+  margin-left: 20px;
+}
+
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 240px;
+  height: 30px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.leftPosts {
+  margin:150px;
+  width: 100px;
+  height: 100px;
+  background: rd;
+}
+
+.pR {
+  position: relative;
+}
+
+.titleSideBar {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.addContainer {
+  margin: 150px 20px 350px 20px; 
+  padding: 50px;
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.addContainer div {
+  display: inline-block;
+  
+}
+
+.postCont {
+  position: relative;
+  top: -70px;
+  left: 200px;
+  width: 100%;
+}
+
+.submitNew {
+  position:relative;
+  width: 30%;
+  top: 130px; left: 400px;
+}
+
+.synopsis {
+  width: 100%;
+  height: 150px !important;
+}
+
+.form-control {
+  width: 80% !important;
+  margin: 30px !important;
+}
+
+.main-div {
+  background: lightseagreen !important;
+}
+
+.loginButton {
+  width: 300px !important;
+}
+
+.actionButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background: antiquewhite;
+}
+
+.actionBtn {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 30px;
+}

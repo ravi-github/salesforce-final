@@ -1,0 +1,5 @@
+{
+    "useMock": false,
+    "baseURL": "https://salesforce-blogs.herokuapp.com/blogs/api/",
+    "backgroundColors": ["lightgoldenrodyellow", "lightcoral", "lightsalmon", "lightsalmon", "lightgreen"] 
+}  
